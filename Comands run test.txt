@@ -1,0 +1,14 @@
+Comands LAB ::
+Comporbar instalacion:
+docker -v
+java -version
+mvn -v
+gradle -vgraalvm
+______________
+gradle build -x test
+mvn clean install -DskipTests
+
+java -jar ./target/quarkus-app/quarkus-run.jar
+gradle quarkusDev
+________________
+docker compose up -d
